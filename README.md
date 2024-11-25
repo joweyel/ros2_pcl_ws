@@ -65,3 +65,5 @@ rviz2 --display-config src/process_pcl/rviz_config.rviz
 
 When everything is running you will be able to see results like this:
 ![example visualization](imgs/example.png)
+
+The results are computed relatively fast, however the Visualization with RViz2 also takes up some ressources and will result in a slower visualization than the computed values themself.
