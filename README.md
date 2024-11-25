@@ -64,4 +64,4 @@ rviz2 --display-config src/process_pcl/rviz_config.rviz
 ```
 
 When everything is running you will be able to see results like this:
-![example visualization](example.png)
+![example visualization](imgs/example.png)
