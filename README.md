@@ -5,7 +5,7 @@ This repository contains parts of my code (with updated versions of dependencies
 
 The code is packaged inside a [devcontainer](.devcontainer/devcontainer.json), which allows to directly work inside a docker container (via VSCode) where the program is running. In order to work, the directory containing the [.devcontainer](./.devcontainer/)-folder has to be opened with Visual Studio Code.
 
-If no GPU is available you can comment out the related `runArgs` (*gpus*, *runtime*) in the `devcontainer.json` to run on cpu only:
+If no GPU is available you can comment out the related `runArgs` (*gpus*, *runtime*) in the [`devcontainer.json`](.devcontainer/devcontainer.json) to run on cpu only:
 ```json
 {
     "name": "ros2_humble",
@@ -15,8 +15,7 @@ If no GPU is available you can comment out the related `runArgs` (*gpus*, *runti
         // "--gpus=all",
         // "--runtime=nvidia",
         "--privileged",
-
-    ...
+        ...
 ```
 
 
